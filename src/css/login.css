@@ -17,8 +17,8 @@ a {
 /*头部CSS代码*/
 .header {
     width: 1100px;
-    height: 104px;
-    border: 1px solid #333;
+    height: 80px;
+    /* border: 1px solid #333; */
     margin: auto;
 }
 .log > img {
@@ -29,28 +29,202 @@ a {
     width: 150px;
     height: 55px;
     /* border: 1px solid #333; */
-    margin-top: 30px;
+    margin-top: 10px;
 
 }
 .header > h2 {
-    margin-top: 50px;
-    margin-left: 10px;
+    margin-top: 29px;
+    margin-left: 18px;
     font-weight: lighter;
 }
 .a1 {
     width: 150px;
     height: 15px;
-    border: 1px solid #333;
-    margin-top: 70px;
+    /* border: 1px solid #333; */
+    margin-top: 50px;
     margin-right: 20px;
+    line-height: 15px;
 }
+.a1 > a {
+    color: #999;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.a1 > a:hover {
+    color: red;
+    text-decoration: underline;
+}
+/*这是一段顶部下面的提示*/
 .jingdongyisi {
-    height: 50px;
+    height: 30px;
+    padding-top: 10px;
     background-color: rgb(255, 248,240);
 }
 .jingdongyisi > div {
     width: 800px;
-    height: 50px;
+    height: 20px;
+    /* border: 1px solid #333; */
+    margin: auto;
+}
+.jingdongyisi > div > div {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #999999;
+    text-align: center;
+    line-height: 13px;
+    font-size: 12px;
+    color: #999;
+    margin-top: 1px;
+}
+.jingdongyisi > div > p {
+    font-size: 12px;
+    color: #999;
+    margin-right: 10px;
+}
+.jingdongyisi > div > p >span {
+    color: #000;
+}
+/*登陆验证*/
+.main {
+    height: 470px;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+}
+.main > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.biaodan {
+    width: 330px;
+    height: 420px;
+    background-color: #fff;
+    /* border: 1px solid #333; */
+    position: relative;
+    top: -97%;
+    left: 66%;
+}
+.jinggao {
+    width: 330px;
+    height: 28px;
+    background-color: rgb(255, 248,240);
+    padding-top: 12px;
+}
+.jinggao > p {
+    font-size: 12px;
+    margin-right: 20px;
+    color: #999;
+}
+.a2 {
+    width: 13px;
+    height: 13px;
+    /* display: block; */
+    border-radius: 50%;
+    border: 1px solid #999;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    line-height: 13px;
+    margin-left: 25px;
+}
+.denglu {
+    width: 330px;
+    height: 30px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(230, 230,230);
+    text-align: center;
+    color: #666;
+}
+.denglu > p:nth-child(1) {
+    width: 164px;
+    height: 16px;
+    cursor:pointer;
+    float: left;
+}
+.denglu > p:nth-child(2) {
+    width: 165px;
+    height: 16px;
+    border-left: 1px solid rgb(230, 230,230);
+    cursor: pointer;
+    float: right;
+}
+.binda {
+    font-weight: bold;
+    color: red;
+}
+.qiehuan {
+    width: 330px;
+    height: 260px;
+    border-bottom: 1px solid rgb(230, 230,230);
+}
+.qiehuan1 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #999;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+.qiehuan > p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.qiehuan > p > span > a {
+    color: red;
+}
+.qiehuan2 {
+    height: 20px;
+}
+.qiehuan2 > ul {
+    height: 35px;
+    width: 240px;
     border: 1px solid #333;
     margin: auto;
+    margin-top: 10px;
+}
+.qiehuan2 > ul > li {
+    width: 33%;
+    height: 100%;
+    /* border: 1px solid #000; */
+    float: left;
+    /* text-align: center; */
+    
+}
+.qiehuan2 > ul > li > p {
+    color:#999;
+    font-size: 13px;
+    /* margin-left: 30px; */
+    margin-bottom: 50px;
+}
+.qiehuan2 > ul > li:nth-child(1) > span {
+    width: 27px;
+    height: 27px;
+    display: block;
+    border: 1px solid #000;
+    background:url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/qr-coagent.png) 0px 0px no-repeat ;
+}
+.qiehuan2 > ul > li:nth-child(2) > span {
+    width: 27px;
+    height: 27px;
+    display: block;
+    border: 1px solid #000;
+    background:url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/qr-coagent.png) -26px 0px no-repeat ;
+}
+.qiehuan2 > ul > li:nth-child(3) > span {
+    width: 27px;
+    height: 27px;
+    display: block;
+    border: 1px solid #000;
+    background:url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/qr-coagent.png) -53px 0px no-repeat ;
+}
+.a3 {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.a4 {
+    margin-right: 9px;
 }
