@@ -153,7 +153,7 @@ a {
 }
 .binda {
     font-weight: bold;
-    color: red;
+    color: rgb(228, 57,60);
 }
 .qiehuan {
     width: 330px;
@@ -182,9 +182,9 @@ a {
 .qiehuan2 > ul {
     height: 35px;
     width: 240px;
-    border: 1px solid #333;
+    /* border: 1px solid #333; */
     margin: auto;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .qiehuan2 > ul > li {
     width: 33%;
@@ -204,27 +204,92 @@ a {
     width: 27px;
     height: 27px;
     display: block;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     background:url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/qr-coagent.png) 0px 0px no-repeat ;
 }
 .qiehuan2 > ul > li:nth-child(2) > span {
     width: 27px;
     height: 27px;
     display: block;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     background:url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/qr-coagent.png) -26px 0px no-repeat ;
 }
 .qiehuan2 > ul > li:nth-child(3) > span {
     width: 27px;
     height: 27px;
     display: block;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     background:url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/qr-coagent.png) -53px 0px no-repeat ;
 }
 .a3 {
     margin-right: 20px;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 .a4 {
     margin-right: 9px;
+    margin-top: 4px;
 }
+.a-qiehuan {
+    width: 330px;
+    height: 275px;
+    padding-top: 15px;
+    background-color: #fff;
+    position: relative;
+    top: -291px;
+    left: 0;
+    display: none;
+}
+.a_4 {
+    width: 35px;
+    height: 37px;
+    border: 1px solid #999;
+    margin-top: 30px;
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) no-repeat;
+}
+.a_5 {
+    width: 35px;
+    height: 37px;
+    border: 1px solid #999;
+    margin-top: 30px;
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) no-repeat;
+}
+#username {
+    width: 250px;
+    height: 37px;
+    margin-top: 30px;
+}
+#password {
+    width: 250px;
+    height: 37px;
+    margin-top: 28px;
+    /* margin-left: 36px; */
+   
+}
+#login {
+    width: 300px;
+    height: 260px;
+    /* border: 1px solid #000; */
+    margin: auto;
+}
+button {
+    width: 300px;
+    height: 35px;
+    margin-top: 28px;
+    background-color: rgb(228, 57,60);
+    border-style: none;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #fff;
+   
+}
+.skt {
+    display: block;
+    /* width: 100px;
+    height: 20px; */
+    margin-top: 20px; 
+}
+.skt > a {
+    color: #999;
+    font-size: 12px;
+}
+/* 这是一个登陆页面的底部*/

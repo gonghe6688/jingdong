@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/login.css">
-    <script src="../js/login.js"></script>
-    <script src="../jquery/jquery.min.js"></script>
+    
 </head>
 <body> 
         <!---
@@ -45,19 +44,22 @@
         <main class="main">
             <img src="https://img10.360buyimg.com/da/jfs/t1/91364/30/5878/78510/5df063afE53b76a8b/db29466fb0d29f03.jpg" alt="">
             <div class="biaodan">
+                <!---->
                 <div class="jinggao">
                     <div class="a2 fl">i</div>
                     <p class="fr">京东不会以任何理由要求你转账汇款，谨防诈骗。</p>
                 </div>
+                <!---->
                 <div class="denglu">
                     <p class="binda">扫码登录</p>
                     <p>账号登录</p>
                 </div>
+                <!---->
                 <div class="qiehuan">
                     <div class="qiehuan1">
                         <img src="https://qr.m.jd.com/show?appid=133&size=147&t=1576485150837" alt="">
                     </div>
-                    <p> <span>打开<a href="#">手机京东</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>扫描二维码</span></p>
+                    <p> <span>打开<a href="#">手机京东</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>扫描二维码</span></p>
                     <div class="qiehuan2">
                         <ul>
                             <li>
@@ -75,9 +77,27 @@
                         </ul>
                     </div>
                 </div>
-
+                <!---->
+                <div class="a-qiehuan">
+                    <form id="login">
+                        <label for="username">
+                            <div class="a_4 fl"></div>
+                            <input class="fr" type="text" id="username" placeholder="邮箱/用户名/登陆手机">
+                        </label>
+                        <br>
+                        <label for="password">
+                            <div class="a_5 fl"></div>
+                            <input class="fr" type="text" id="password" placeholder="密码">
+                        </label>
+                        <br>
+                        <span class="skt fr"><a href="#">忘记密码</a></span>
+                        <br>
+                        <button>登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;陆</button>
+                    </form>
+                </div>
             </div>
-
         </main>
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../js/login.js"></script>
 </body>
 </html>
