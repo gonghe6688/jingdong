@@ -1,0 +1,80 @@
+/*准备工作*/
+body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,input,form {
+    margin: 0;
+    padding: 0;
+}
+ul , ol , li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/*header (头部工作)*/
+.header {
+    height: 35px;
+    background-color: rgb(227, 228, 229);
+}
+.a_header {
+    width: 1150px;
+    height: 35px;    
+    line-height: 35px;
+    margin: auto;
+    /* background-color: salmon; */
+}
+.b_header {
+    width: 150px;
+    height: 30px;
+    /* border: 1px solid #000; */
+}
+.b_header > div {
+    width: 73px;
+    height: 35px;
+    /* border: 1px solid #000; */
+    /* margin-top: 2px; */
+    font-size: 13px;
+    line-height: 35px;
+    color:#000;
+}
+.shoye-a {
+    margin-right: 26px;
+    color: #999;
+    
+}
+.skt:hover {
+    background-color: #fff;
+    color: red;
+} 
+._shoye-b {
+    margin-left: 10px;
+}
+._shoye-c {
+    color: #999;
+}
+.a_header > span {
+    font-size: 12px;
+    color: #999;
+    margin-right: 5px;
+}
+.a_header > a {
+    font-size: 13px;
+    color: #999;
+    margin-right: 12px;
+}
+._header-a {
+    width: 70px;
+}
+/*隐藏的菜单*/
+#xialacaidan {
+    width: 300px;
+    height: 280px;
+    background-color: royalblue;
+    margin-left: 13.5%;
+    /* display: none; */
+    
+}
