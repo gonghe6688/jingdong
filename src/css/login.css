@@ -90,12 +90,11 @@ a {
     height: 470px;
     width: 100%;
     background-color: aqua;
-    position: absolute;
 }
 .main > img {
     width: 100%;
     height: 100%;
-    display: block;
+    /* display: block; */
     position: relative;
 }
 .biaodan {
@@ -158,6 +157,7 @@ a {
 .qiehuan {
     width: 330px;
     height: 260px;
+    /* display: none; */
     border-bottom: 1px solid rgb(230, 230,230);
 }
 .qiehuan1 {
@@ -234,9 +234,9 @@ a {
     height: 275px;
     padding-top: 15px;
     background-color: #fff;
-    position: relative;
+    /* position: relative;
     top: -291px;
-    left: 0;
+    left: 0; */
     display: none;
 }
 .a_4 {
@@ -293,3 +293,75 @@ button {
     font-size: 12px;
 }
 /* 这是一个登陆页面的底部*/
+.a_dibu {
+    width: 330px;
+    height: 30px;
+    margin-top: 10px;
+}
+._dibu2 {
+    width: 100px;
+    height: 20px;
+    /* border: 1px solid #000; */
+    margin-top: 5px;
+    margin-left: 15px;
+}
+._dibu3 {
+    width: 80px;
+    height: 22px;
+    /* border: 1px solid #000; */
+    margin-top: 5px;
+    margin-right: 8px;
+}
+.bj-1  {
+    width: 48px;
+    border-right: 1px solid rgb(230, 230,230);
+}
+.bj-2 {
+    width: 48px;
+}
+.bj-1 > p {
+    margin-right: 5px;
+}
+.bj-1 > div {
+    width: 19px;
+    height: 19px;
+    /* border: 1px solid #000; */
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/QQ-weixin.png) no-repeat;
+}
+.bj-2 > div {
+    width: 19px;
+    height: 19px;
+    /* border: 1px solid #000; */
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/QQ-weixin.png) -19px 0px no-repeat;
+}
+.a_dibu p {
+    font-size: 12px;
+    color: #999;
+
+}
+._dibu3 > div {
+    width: 18px;
+    height: 18px;
+    /* border: 1px solid #000; */
+    margin-top: 3px;
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) -104px -75px no-repeat;
+}
+._dibu3 > a {
+    color: red;
+    font-size: 15px;
+}
+.daohang {
+    width: 1000px;
+    height: 30px;
+    /* border: 1px solid #000; */
+    margin: 30px auto;
+    text-align: center;
+}
+.daohang > a {
+    font-size: 12px;
+    color: #999;
+}
+.daohang > span {
+    font-size: 12px;
+    color: #999;
+}
