@@ -137,13 +137,13 @@ a {
     text-align: center;
     color: #666;
 }
-.denglu > p:nth-child(1) {
+.denglu > ul > li:nth-child(1) {
     width: 164px;
     height: 16px;
     cursor:pointer;
     float: left;
 }
-.denglu > p:nth-child(2) {
+.denglu > ul > li:nth-child(2) {
     width: 165px;
     height: 16px;
     border-left: 1px solid rgb(230, 230,230);
@@ -153,6 +153,18 @@ a {
 .binda {
     font-weight: bold;
     color: rgb(228, 57,60);
+}
+ol {
+    position: relative;
+}
+._alk {
+    display: inline;
+}
+ol > li {
+    display: none;
+}
+ol > li.binda {
+    display: inline;
 }
 .qiehuan {
     width: 330px;
@@ -237,7 +249,7 @@ a {
     /* position: relative;
     top: -291px;
     left: 0; */
-    display: none;
+    /* display: none; */
 }
 .a_4 {
     width: 35px;
@@ -270,6 +282,7 @@ a {
     height: 260px;
     /* border: 1px solid #000; */
     margin: auto;
+    
 }
 button {
     width: 300px;
