@@ -85,12 +85,12 @@
                         <form id="login">
                             <label for="username">
                                 <div class="a_4 fl"></div>
-                                <input class="fr" type="text" id="username" placeholder="邮箱/用户名/登陆手机">
+                                <input class="fr" type="text" name="username" id="username" placeholder="邮箱/用户名/登陆手机">
                             </label>
                             <br>
                             <label for="password">
                                 <div class="a_5 fl"></div>
-                                <input class="fr" type="text" id="password" placeholder="密码">
+                                <input class="fr" type="text" name="password" id="password" placeholder="密码">
                             </label>
                             <br>
                             <span class="skt fr"><a href="#">忘记密码</a></span>
@@ -144,6 +144,9 @@
             <a href="#">English Site</a>
         </div>
     <script src="../jquery/jquery.min.js"></script>
+    <script src="../jquery_validate/jquery.validate.min.js"></script>
+    <script src="../jquery_validate/localization/messages_zh.min.js"></script>
+    <script src="../js/yanzheng.js"></script>
     <script src="../js/login.js"></script>
 </body>
 </html>
