@@ -76,25 +76,49 @@
     <!--这是一个京东主要内容-->
     <main class="main">
         <ul>
-            <li>
+            <li class="main-1 fl">
                 <h2 class="main-h2 fl">家用电器</h2>
-                <div class="a_dianqi">
+                <div style="cursor:pointer;" class="a_dianqi">
                     <svg class="icon fr" aria-hidden="true">
                         <use xlink:href="#icon-chevron_down"></use>
                     </svg>
-                    <p class="fl">全部分类</p>
+                    <p  class="fl">全部分类</p>
                 </div>
             </li>
-            <li></li>
-            <li></li>
+            <li class="main-2 fl">
+                <form class="parent">
+                    <input id="sosuo" class="fl" type="text" placeholder="品质家电">
+                    <input class="fr" type="button" value="搜索">
+                </form>
+                <div class="sosuodaohang">
+                    <a href="#">海尔品牌日</a>
+                    <a href="#">冰箱洗衣机</a>
+                    <a href="#">热水器</a>
+                    <a href="#">爆款电视</a>
+                    <a href="#">爆款电视</a>
+                </div>
+                <ul id="sosuokuang">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                </ul>
+            </li>
+            <li class="main-3 fl">
+                <div style="cursor:pointer" class="gowuche">
+                    <a href="#">我的购物车</a>
+                </div>
+            </li>
         </ul>
     </main>
-
-
-
-
-
-
 
 
 
@@ -103,5 +127,6 @@
     <script src="../jquery/jquery.min.js"></script>
     <script src="../js/xialacaidan.js"></script>
     <script src="../js/guanggao.js"></script>
+    <script src="../js/sosuokuang.js"></script>
 </body>
 </html>
