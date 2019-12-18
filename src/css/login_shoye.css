@@ -226,3 +226,47 @@ a {
     background-color: pink;
     
 }
+/*页面的主导航部分*/
+.nav {
+    width: 1150px;
+    height: 40px;
+    background-color: rgb(251, 251, 251);
+    margin: auto;
+}
+.daohang-a {
+    width: 213px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(221, 69, 69);
+}
+.nav > span {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    color: #999;
+}
+.nav > a {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+    color: #000;
+}
+.nav > a:hover {
+    color: #999;
+}
+/*包裹内容*/
+#box {
+    background-color: rgb(244, 238,238);
+}
+/* .a-banqu {
+    width: 1150px;
+    height: 400px;
+} */
